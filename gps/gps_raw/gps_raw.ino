@@ -8,7 +8,7 @@
 #define TXPin 3 // No se usa, posibilidad de eliminarlo usando
                 // http://gammon.com.au/Arduino/SendOnlySoftwareSerial.zip
 #define GPSBaud 9600 // default en el GPS
-#define ConsoleBaud 11520 // Comunica al ordenador
+#define ConsoleBaud 115200 // Comunica al ordenador
 
 // The serial connection to the GPS device
 SoftwareSerial GPS_Serial(RXPin, TXPin); // Usando ambos pines

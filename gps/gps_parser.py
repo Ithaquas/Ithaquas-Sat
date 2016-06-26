@@ -7,7 +7,7 @@ import pynmea2
 
 # TODO_p: buscar como detectar automáticamente el puerto con el que se comunica
 # 115200 es el baud rate desde el que Arduino envia los datos que toma del GPS (9600 baduinos default)
-serialPort = serial.Serial("/dev/cu.usbmodem1411", 115200, timeout=0.5)
+serialPort = serial.Serial("/dev/cu.usbserial-AI03RM1B", 115200, timeout=0.5)
 
 while True:
     sentence = serialPort.readline()
